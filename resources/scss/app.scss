@@ -1,0 +1,13 @@
+
+@import './utils/normalize.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import  './utils/_variable.scss';
+
+@import "./utils/tph-framework/tph-css.scss";
+@import "./base.scss";
+

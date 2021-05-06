@@ -1,0 +1,56 @@
+//shadow
+
+.btn-shadow{
+
+    box-shadow: var(--btn-shadow);
+}
+
+//button
+.btn-primary-dark{
+
+
+    background-color: var(--primary-color-dark);
+    @apply px-6;
+    @apply text-white;
+
+    &_shadow{
+        @apply btn-shadow
+    }
+
+}
+
+
+.btn-primary{
+
+
+    background-color: var(--primary-color);
+    @apply   text-white  px-6 py-2;
+    &_shadow{
+        @apply btn-shadow
+    }
+
+}
+
+.btn-white{
+    background-color:white;
+    color:var(--text-color);
+
+    &_shadow{
+        @apply btn-shadow
+    }
+
+}
+
+.btn-red-transparent{
+
+    background-color:transparent;
+    border:1px solid var(--secondary-color);
+    color:var(--secondary-color);
+    @apply px-6 py-2;
+    &_shadow{
+        @apply btn-shadow
+    }
+}
+
+
+

@@ -1,0 +1,55 @@
+
+
+.coach{
+    background-color:var(--color-white-light);
+    width: 100%;
+    padding:50px;
+    display: flex;
+
+    .coach-list{
+
+        display: flex;
+        flex-wrap: wrap;
+
+      .card-coach{
+         margin:15px auto;
+
+      }
+
+
+    }
+}
+
+
+
+.section-course,.home-header{
+
+
+    display:flex;
+    justify-content: space-between;
+
+    img{
+
+        width:35%;
+
+    }
+
+    .card-text-with-btn{
+        width:45%;
+    }
+
+}
+
+
+.testimonies-member{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-left{
+        width:45%;
+    }
+    &-right{
+        width:45%;
+    }
+}

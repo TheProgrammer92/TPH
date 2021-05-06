@@ -1,0 +1,65 @@
+
+
+.card-left-text-img-right{
+
+    display:flex;
+
+
+
+    .right {
+        margin-left: auto;
+    };
+
+    .right img{
+
+        width: 60%;
+        border-radius: 50px;
+        margin-left: auto;
+    }
+
+
+}
+
+//----------
+.card-coach{
+
+    display: flex;
+    background-color:var(--white-color);
+    max-width: 500px;
+    padding :20px;
+    flex-direction: column;
+    border-radius: 20px ;
+    img{
+        height:80px;
+        width:80px;
+    }
+
+
+    .card-coach-body{
+
+        display:flex;
+        color: var(--text-color);
+
+        .right{
+
+            margin-left: 15px;
+        }
+    }
+
+    .card-coach-footer{
+
+        margin-top:10px;
+        width:100%;
+        text-align:right;
+    }
+
+}
+
+
+.card-text-with-btn{
+
+
+        display: flex;
+        flex-direction: column;
+
+}
